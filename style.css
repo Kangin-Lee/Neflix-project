@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+}
+
+.header{
+    width: 100%;
+    height: 780px;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/3c416346-137b-428b-849b-3c2b3014e492/KR-ko-20220725-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    border: 1px solid black;
+    background-size:cover;
+    background-position: center;
+}
+
+.header::before{
+    content: '';
+    /*background: linear-gradient(to bottom, black , transparent, rgba(0, 0, 0, 0.918));*/
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.850), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.900));
+    position: absolute;
+    top: 0px;
+    height: 785px;
+    width: 100%;
+}
+
+.header .header-top img{
+    position: absolute;
+    width: 205px;
+    left: 37px;
+    top: -10px;
+}
+
+.header .header-top select{
+    position: absolute;
+    right: 170px;
+    top:27px;
+    width: 93px;
+    height: 37px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header .header-top button{
+    width: 86px;
+    height: 39px;
+    position: absolute;
+    top: 25px;
+    right: 53px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 242px;
+    font-size: 64px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+.header h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin: 18px 0;
+    font-size: 26px;
+}
+
+.header h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.header form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header form #email{
+    width: 500px;
+    height: 70px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    border-right: 3px solid black;
+}
+
+.header form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 207.5px;
+    height: 70px;
+    outline: 2px solid rgb(229, 9, 20);
+    font-size: 30px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    border-radius: 1px;
+}
+.header form button i{
+    font-size: 27px;
+    font-weight: none;
+    margin-left: 15px;
+}
+
+
+/* ===============컨텐츠01부분================== */
+.content01{
+    margin-top: 11px;
+    width: 100%;
+    height: 474px;
+    background-color: black;
+}
+
+/* ===============컨텐츠02부분================== */
+.content02{
+    margin-top: 11px;
+    width: 100%;
+    height: 470px;
+    background-color: black;
+}
+/* ===============컨텐츠03부분================== */
+.content03{
+    margin-top: 11px;
+    width: 100%;
+    height: 543px;
+    background-color: black;
+}
+/* ===============컨텐츠04부분================== */
+.content04{
+    margin-top: 11px;
+    width: 100%;
+    height: 530px;
+    background-color: black;
+}
