@@ -6,20 +6,19 @@ body{
 
 .header{
     width: 100%;
-    height: 780px;
+    height: 770.59px;
     background: url(https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/3c416346-137b-428b-849b-3c2b3014e492/KR-ko-20220725-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    border: 1px solid black;
+
     background-size:cover;
     background-position: center;
 }
 
 .header::before{
     content: '';
-    /*background: linear-gradient(to bottom, black , transparent, rgba(0, 0, 0, 0.918));*/
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.850), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.900));
     position: absolute;
     top: 0px;
-    height: 785px;
+    height: 770.59px;
     width: 100%;
 }
 
@@ -60,11 +59,12 @@ body{
     position: relative;
     text-align: center;
     color: white;
-    margin-top: 242px;
+    padding-top: 242px;
+    margin: 0;
     font-size: 64px;
     margin-bottom: 0;
-    font-family: sans-serif;
 }
+
 
 .header h2{
     position: relative;
@@ -99,19 +99,20 @@ body{
     border: none;
     border-right: 3px solid black;
 }
+#email:focus {outline:none;}
 
 .header form button{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 207.5px;
-    height: 70px;
+    height: 69px;
     outline: 2px solid rgb(229, 9, 20);
     font-size: 30px;
     background-color: rgb(229, 9, 20);
     border: none;
     color: white;
-    border-radius: 1px;
+    border-radius: 0.5px;
 }
 .header form button i{
     font-size: 27px;
@@ -122,30 +123,341 @@ body{
 
 /* ===============컨텐츠01부분================== */
 .content01{
-    margin-top: 11px;
-    width: 100%;
-    height: 474px;
+    margin-top: 8px;
+    height: 325.92px;
     background-color: black;
+    padding: 70px 45px;
 }
+
+.content01 .textbox01{
+    color: white;
+    display: inline-block;
+    padding-right: 48px;
+}
+
+.content01 .contentbox01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.content01 .textbox01 h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.content01 .textbox01 h2{
+    font-weight: 530;
+    margin-top: 20px; 
+    font-size: 25px;
+}
+.content01 .videobox01{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+.content01 img{
+    width: 530px;
+    height: 402px;
+    z-index: 2;
+    
+}
+.content01 .video01{
+    /* width: 387px;
+    height: 217.12px; */
+
+    left: 750px;
+    position: absolute;
+    top: 930px;
+    width: 400px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
 
 /* ===============컨텐츠02부분================== */
 .content02{
-    margin-top: 11px;
+    margin-top: 8px;
     width: 100%;
-    height: 470px;
+    height: 314.57px;
     background-color: black;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content02 .videobox02{
+    display: flex;
+    padding-right: 70px;
+}
+.content02 .videobox02>img{
+    width: 489px;
+    height: 367px;
+}
+
+.content02 .videobox02 .animationbox{
+    width: 293.469px;
+    height: 76px;
+    padding: 8px 12px;
+    border: 2px solid #404040;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.content02 .videobox02 .animationbox{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 600px;
+    top: 1600px;
+}
+.content02 .videobox02 .animationbox img{
+    width: 51.422px;
+    height: 76px;
+    margin: 15px;
+}
+
+.content02 .videobox02 .animationbox .animationbox-text{
+    width: 200px;
+}
+
+.content02 .videobox02 .animationbox .animationbox-text div:nth-child(1){
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.content02 .videobox02 .animationbox .animationbox-text div:nth-child(2){
+    color: #0071eb;
+}
+.content02 .textbox02{
+    color: white;
+    padding-left: 40px;
+    letter-spacing: -1px;
+}
+
+.content02 .videobox02 .animationbox .animationbox-icon{
+    color: white;
+    padding: 20px;
+}
+
+.content02 .textbox02 h1{
+    font-size: 3.125rem;
+}
+
+.content02 .textbox02 h3{
+    font-size: 1.625rem;
+    font-weight: 520;
+    margin: 0;
 }
 /* ===============컨텐츠03부분================== */
 .content03{
-    margin-top: 11px;
+    margin-top: 8px;
     width: 100%;
     height: 543px;
     background-color: black;
 }
 /* ===============컨텐츠04부분================== */
 .content04{
-    margin-top: 11px;
+    margin-top: 8px;
     width: 100%;
-    height: 530px;
+    height: 373px;
     background-color: black;
+    padding: 70px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content04 .videobox04 img{
+    width: 490px;
+    height: 367px;
+}
+.content04 .videobox04{
+    margin-right: 40px;
+}
+
+.content04 .textbox04 h1{
+    margin: 0;
+    font-size: 3.125rem;
+    line-height: 0.9;
+    letter-spacing: -2px;
+}
+
+.content04 .textbox04 h3{
+    font-size: 1.625rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+/* ===============QnA부분================== */
+.QnA{
+    margin-top: 8px;
+    width: 100%;
+    height: 946px;
+    background-color: black;
+    color: white;
+    padding: 70px 0;
+}
+
+.QnA .textQnA{
+    font-size: 3.125rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.QnA .QnAbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.QnA input[id*="answer"]+label, .QnA p{
+    font-size: 25px;
+}
+
+.QnA input[id*="answer"]{
+    display: none;
+}
+
+.QnA input[id*="answer"]+label{
+    width: 769px;
+    height: 36px;
+    display: block;
+    padding: 20px;
+    border: 6px solid black;
+    background-color: #303030;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.QnA input[id*="answer"]+label+div{
+    width: 769px;
+    padding: 0 20px;
+    max-height: 0;
+    translate: all .35s;
+    overflow: hidden;
+    background-color: #303030;
+}
+
+.QnA input[id*="answer"]+label + div p{
+    display: inline-block;
+    padding: 20px;
+}
+
+.QnA input[id*="answer"]:checked + label +div{
+    max-height: 100%;
+}
+
+.QnA input[id*="answer"]:checked + label .fa-solid{
+    transform: rotate(45deg);
+}
+
+.QnA h3{
+    text-align: center;
+    font-weight: 400;
+}
+
+.QnA form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QnA form #email{
+    width: 500px;
+    height: 70px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    border-right: 3px solid black;
+}
+
+.QnA form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 207.5px;
+    height: 69px;
+    outline: 2px solid rgb(229, 9, 20);
+    font-size: 30px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    border-radius: 0.5px;
+}
+.header form button i{
+    font-size: 27px;
+    font-weight: none;
+    margin-left: 15px;
+}
+
+/* ===============footer부분================== */
+footer{
+    margin-top: 8px;
+    width: 100%;
+    height: 465px;
+    background-color: black;
+    color: white;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer ul{
+    margin-right: 70px;
+}
+
+footer h4{
+    color: #737373;
+    font-weight: 400;
+    margin: 0;
+    text-align: start;
+    margin-top: 16px;
+}
+footer > ul{
+    padding: 0;
+}
+footer > ul li{
+    color: #737373;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+}
+footer div #lang{
+    width: 130px;
+    height: 53px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid #737373;
+    color: #737373;
+    font-size: 17px;
+    border-radius: 2px;
 }
